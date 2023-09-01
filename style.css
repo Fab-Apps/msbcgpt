@@ -67,3 +67,43 @@ body, html {
     background-color: #f0f0f0;
     border-radius: 10px; /* Increased border-radius */
 }
+
+
+@media (max-width: 768px) {
+    .glass {
+        width: 90%;
+    }
+    
+    .conversation {
+        height: 300px;
+    }
+    
+    .input input {
+        font-size: 1rem;
+    }
+    
+    .user-message, .bot-message {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .glass {
+        padding: 20px;
+    }
+    
+    .conversation {
+        height: 200px;
+    }
+    
+    .input input {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .user-message, .bot-message {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+
